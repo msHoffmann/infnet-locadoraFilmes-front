@@ -1,0 +1,13 @@
+PROJETO - LOCADORA DE FILMES 
+
+DÚVIDAS
+
+🔴 Editar imagens
+🔴 Popular Filmes na API
+🔴 Editar MoviesRow e APP
+
+---------------------------------------------------------------
+
+FRANIA
+🔴 Deixar API no outro projeto / atualizar GIT da API-mysql
+
