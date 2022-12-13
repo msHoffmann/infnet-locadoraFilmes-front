@@ -10,3 +10,21 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
 }
+
+.title {
+  font-size: 2em;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+  font-weight: bolder;
+}
+
+.containerMovies {
+  display: flex;
+  overflow-x: auto;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  font-weight: bolder;
+}

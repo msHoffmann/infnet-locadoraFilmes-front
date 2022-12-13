@@ -5,7 +5,7 @@
     <img src="images/locadora.png" alt="Locadora de Filmes" />
   </a>
 
-<h3 align="center">API - Locadora de Filmes</h3>
+<h3 align="center">Front-end: Locadora de Filmes</h3>
 Front-end em construção para consumir Bando de dados criado para Locadora de Filmes.
 <br />
 Vamos alugar um filme?

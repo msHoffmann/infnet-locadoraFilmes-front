@@ -8,18 +8,20 @@
 
 .moviesRow-list-area {
   overflow-x: hidden;
-  padding-left: 30px;
+  padding-left: 10px;
 }
 
 .moviesRow-item {
   display: inline-block;
-  width: 150px;
+  width: 160px;
+  text-align: center;
+  cursor: pointer;
 }
 
 .moviesRow-item img {
-  width: 100px;
+  width: 150px;
   transform: scale(0.9);
-  /* css diminuido para ficar 90% */
+  transition: all ease 0.2s;
 }
 
 .moviesRow-item img:hover {

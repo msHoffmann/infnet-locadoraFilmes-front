@@ -60,4 +60,7 @@ export default {
       // },
     ];
   },
+  // getMovieInfo: async (movieId) => {
+  //   foto no DESKTOP
+  // }
 };
