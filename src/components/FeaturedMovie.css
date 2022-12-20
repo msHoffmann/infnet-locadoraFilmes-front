@@ -5,11 +5,113 @@
 .featuredVertical {
   width: inherit;
   height: inherit;
-  background: linear-gradient(to top, #111 10%, transparent 90%);
+  background: linear-gradient(to top, #111 2%, transparent 98%);
 }
 
 .featuredHorizontal {
   width: inherit;
   height: inherit;
-  background: linear-gradient(to right, #111 30%, transparent 70%);
+  background: linear-gradient(to right, #111 20%, transparent 80%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+  padding-bottom: 150px;
 }
+
+.featuredName {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.featuredInfo {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.featuredPoints,
+.featuredYear {
+  margin-right: 15px;
+  display: inline-block;
+}
+
+.featuredPoints {
+  color: #46d369;
+}
+
+.featuredDescription {
+  font-size: 20px;
+  color: #999;
+  margin-top: 15px;
+  max-width: 30%;
+}
+
+.featuredButtons {
+  margin-top: 15px;
+}
+
+.featuredRent,
+.featuredAdd {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-right: 10px;
+  opacity: 1;
+}
+
+.featuredRent:hover,
+.featuredAdd:hover {
+  opacity: 0.7;
+  transition: all ease 0.2s;
+}
+.featuredRent {
+  background-color: white;
+  color: black;
+}
+
+.featuredAdd {
+  background-color: #333;
+  color: white;
+}
+
+.featuredGenres {
+  font-size: 18px;
+  margin-top: 15px;
+  color: #999;
+}
+
+@media (max-width: 760px) {
+  .featured {
+    height: 90vh;
+  }
+  .featuredName {
+    font-size: 40px;
+  }
+  .featuredInfo {
+    font-size: 16px;
+  }
+  .featuredDescription {
+    font-size: 14px;
+    max-width: 100%;
+    margin-right: 30px;
+  }
+  .featuredGenres {
+    font-size: 14px;
+  }
+
+  .featuredRent,
+  .featuredAdd {
+    font-size: 16px;
+  }
+}
+/* ::-webkit-scrollbar           
+::-webkit-scrollbar-button   
+::-webkit-scrollbar-track       
+::-webkit-scrollbar-track-piece
+::-webkit-scrollbar-thumb   
+::-webkit-scrollbar-corner     
+::-webkit-resizer */

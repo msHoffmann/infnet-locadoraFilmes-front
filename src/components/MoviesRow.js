@@ -1,12 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./MoviesRow.css";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 const MoviesRow = ({ alt, image_url }) => {
   return (
     <div className="moviesRow">
-      <div className="moviesRow-list-area">
-        <div className="moviesRow-list">
-          <div className="moviesRow-item">
+      <div className="moviesRowListArea">
+        <div className="moviesRowList">
+          <div className="moviesRowItem">
             <img src={image_url} alt={alt} />
           </div>
         </div>

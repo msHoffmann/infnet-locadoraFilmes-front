@@ -21,11 +21,15 @@ export default ({ movie }) => {
           </div>
           <div className="featuredDescription">{movie.description}</div>
           <div className="featuredButtons">
-            <a href={`/rent/${movie.id}`}>Alugar</a>
-            <a href={`/list/add/${movie.id}`}>Minha Lista</a>
+            <a href={`/rent/${movie.id}`} className="featuredRent">
+              Rent!
+            </a>
+            <a href={`/list/add/${movie.id}`} className="featuredAdd">
+              + More Info
+            </a>
           </div>
           <div className="featuredGenres">
-            <strong>Gêneros:</strong>
+            <strong>Genres: </strong>
             {genres.join(", ")}
           </div>
         </div>

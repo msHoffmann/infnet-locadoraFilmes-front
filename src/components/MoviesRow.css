@@ -6,24 +6,58 @@
   margin: 0px 0px 0px 30px;
 }
 
-.moviesRow-list-area {
-  overflow-x: hidden;
-  padding-left: 10px;
+.moviesRowList {
+  transition: all ease 0.5s;
 }
 
-.moviesRow-item {
+.moviesRowListArea {
+  overflow-x: hidden;
+  padding-left: 30px;
+}
+
+.moviesRowItem {
   display: inline-block;
   width: 160px;
   text-align: center;
   cursor: pointer;
 }
 
-.moviesRow-item img {
+.moviesRowItem img {
   width: 150px;
   transform: scale(0.9);
   transition: all ease 0.2s;
 }
 
-.moviesRow-item img:hover {
+.moviesRowItem img:hover {
   transform: scale(1);
 }
+
+.moviesRowLeft,
+.moviesRowRight {
+  position: absolute;
+  width: 40px;
+  height: 225px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.movieRowLeft {
+  left: 0;
+}
+
+.movieRowRight {
+  right: 0;
+}
+
+.moviesRow:hover .movieRowLeft,
+.moviesRow:hover .movieRowRight {
+  opacity: 1;
+}
+

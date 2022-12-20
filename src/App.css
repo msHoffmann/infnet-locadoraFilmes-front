@@ -20,6 +20,11 @@ body {
 
 .containerMovies {
   display: flex;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.containerMovies:hover {
   overflow-x: auto;
 }
 
@@ -27,4 +32,21 @@ h2 {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
   font-weight: bolder;
+}
+
+.allLists {
+  margin-top: -100px;
+}
+
+.loading {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

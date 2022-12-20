@@ -1,9 +1,6 @@
 PROJETO - LOCADORA DE FILMES 
 
-DÚVIDAS
-
-Organizar / Refatorar - Listagem de Filmes App.js
-
 ---------------------------------------------------------------
 
-FRANIA
+FRANIA - BÔNUS
+React Query - requisição por scroll
